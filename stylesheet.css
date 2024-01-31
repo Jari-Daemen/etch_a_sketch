@@ -1,3 +1,31 @@
-* {
+* :not(script){
+    border: 2px solid red;
+    box-sizing: border-box;
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.board_container {
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+
+.row_container{
+    background-color: cyan;
+    flex-direction: column;
+    width: 100%;
+}
+
+.board_tile{
+    background-color: yellow;
+}
+
+.board_button{
     color: red;
 }

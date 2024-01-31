@@ -1,0 +1,4 @@
+TODO
+- point 4 of TOP page. Make the button. Button should prompt user for 
+  dimensions and generate a new board with those dimensions.
+  Max limit should be 100
